@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #242424;
+    overflow-x: hidden;
+}
+
+.nav {
+    width: 530px;
+    height: 70px;
+    backdrop-filter: blur(15px);
+    border: 2px solid #cfb476;
+    border-radius: 50px;
+    align-items: center;
+    margin-left: 680px;
+    position: fixed;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.nav ul {
+    margin-top: -45px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    background-color: transparent;
+    padding-top: 2px;
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: transparent;
+}
+
+.nav a {
+    font-size: 18px;
+    padding-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    transition: .3s;
+}
+
+.nav a:hover {
+    color: #cfb476;
+    transition: .3s;
+}
+
+.nav a img {
+    width: 45px;
+    margin-left: 5px;
+    margin-top: 2px;
+    background-color: transparent;
+}
+
+.pocetna-sec {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow-y: hidden;
+}
+
+.pocetna-sec img {
+    background-size: cover;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    margin-left: -10px;
+}
+
+.pocetna-sec h1, p {
+    text-align: center;
+    background-color: transparent;
+}
+
+.pocetna-sec h1 {
+    margin-top: -350px;
+    font-size: 70px;
+    color: #fff;
+}
+
+.pocetna-sec p {
+    font-size: 25px;
+    color: #fff;
+    margin-top: -30px;
+}
+
+.pocetna-sec span {
+    color: #cfb476;
+    background-color: transparent;
+}
+
+.pocetna-sec a {
+    margin-left: 890px;
+    color: #fff;
+    background-color: #cfb476;
+    border: 2px solid #cfb476;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 6px;
+    transition: .5s;
+}
+
+.pocetna-sec a:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #cfb476;
+    transition: .5s;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.onama-sec {
+    padding-top: 70px;
+}
+
+.onama-sec h1 {
+    text-align: center;
+    color: #cfb476;
+    font-size: 50px;
+}
+
+.onama-sec h2 {
+    margin-top: -30px;
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+}
+
+.onama-sec img {
+    height: 500px;
+    margin-left: 495px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.onama-opis {
+    width: 500px;
+    height: 500px;
+    background-color: #cfb476;
+    margin-left: 957px;
+    margin-top: -490px;
+    border-radius: 10px;
+}
+
+.onama-opis p {
+    color: #fff;
+}
+
+.onama-opis a {
+    color: #cfb476;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 210px;
+    font-size: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid #fff;
+    transition: .3s;
+}
+
+.onama-opis a:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: .3s;
+}
